@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/preppy
+preppy.so
+preppy.dylib
+preppy.dll
+preppy.a
+preppy.lib
+preppy-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst

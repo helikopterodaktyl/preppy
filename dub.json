@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"helikopterodaktyl"
+	],
+	"copyright": "Copyright © 2025, helikopterodaktyl",
+	"description": "A language agnostic preprocessor.",
+	"license": "MIT",
+	"name": "preppy"
+}
