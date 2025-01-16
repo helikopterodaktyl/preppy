@@ -85,11 +85,11 @@ string[] preprocess(string[] lines, string[] defines = [], string[] includePaths
             }
             currentDirective ~= PreprocessorDirective.Ifdef;
             continue;
+        }
 
-            if (stripped.canFind("#elseif"))
-            {
-                stripped = stripped.replace("#elseif", "#elif");
-            }
+        if (stripped.canFind("#elseif"))
+        {
+            stripped = stripped.replace("#elseif", "#elif");
         }
 
         if (stripped.canFind("#elif"))
